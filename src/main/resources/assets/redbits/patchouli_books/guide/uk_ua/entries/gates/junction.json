@@ -1,0 +1,17 @@
+{
+	"name": "Перехресття",
+	"icon": "redbits:junction",
+	"category": "redbits:gates",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Працює подібно до $(l:gates/bridge)моста$(), але коли два сигнали в один і той же час перетинаються, він випромінює сигнал угору, ефективно працює як «І» логічний вентиль."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "redbits:junction",
+			"title": "Перехресття"
+		}
+	]
+}
